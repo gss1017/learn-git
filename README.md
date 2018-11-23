@@ -164,7 +164,8 @@ git checkout <branch-name> 切换到指定分支
 
 git checkout -b <branch-name> 新建一个分支，并切换到该分支
 
-git branch -d <branch-name> 删除指定的分支
+git branch -D <branch-name> 删除分支
+git branch -d <branch-name> 删除完全合并的分支（没有merge的不可以）
 
 git merge <branch-name> 合并指定分支到当前分支 (将当前分支(master)指向 指定分支(dev)的最新的提交)
 
@@ -175,8 +176,11 @@ git merge --no-ff -m '提交信息'
 git checkout -b <branch-name> origin/<branch-name> 在本地创建与远程对应的分支
 
 git branch --set-upstream <branch-name> origin/<branch-name> 建立本地分支与远程分支的关联
+
 git push origin <branch-name>:<branch-name> 把新建的本地分支push到远程服务器，远程分支与本地分支同名（当然可以随意起名）
+
 git push origin :<branch-name> 推送一个空的分支到远程，相当与删除远程分支
+
 git push origin --delete <branch-name> 删除指定的远程
 
 ```
