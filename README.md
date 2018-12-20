@@ -136,6 +136,26 @@ git push githubR master
 git push giteeR master
 ```
 
+> 将一个库推到另一个远程库
+
+```
+1. 从原地址克隆一份裸版本库，比如原本托管于 GitHub。
+git clone --bare git://github.com/username/project.git
+
+2. 然后到新的 Git 服务器上创建一个新项目，比如 GitCafe。
+
+3. 以镜像推送的方式上传代码到 GitCafe 服务器上。
+cd project.git
+git push --mirror git@gitcafe.com/username/newproject.git
+```
+> 给当前库换源
+```
+git commit -m "Change repo." # 先把所有为保存的修改打包为一个commit
+git remote remove origin # 删掉原来git源
+git remote add origin [YOUR NEW .GIT URL] # 将新源地址写入本地版本库配置文件
+git push -u origin master # 提交所有代码
+```
+
 ##### 多人协助模式图
 ![image](https://cdn.liaoxuefeng.com/cdn/files/attachments/001384909239390d355eb07d9d64305b6322aaf4edac1e3000/0)
 
