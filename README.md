@@ -180,6 +180,8 @@ ssh-keygen -t rsa -C 'your-email@163.com'
 ```
 git branch <branch-name> 新建一个分支，但依然停留到当前分支
 
+git branch -m old_branch new_branch 将本地分支进行改名
+
 git checkout <branch-name> 切换到指定分支
 
 git checkout -b <branch-name> 新建一个分支，并切换到该分支
