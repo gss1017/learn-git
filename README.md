@@ -1,7 +1,7 @@
 ## git学习笔记
 - 此文档通过观看 [廖雪峰git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) 与 简书 Ruheng的 [一篇文章，教你学会Git](https://www.jianshu.com/p/072587b47515)所得
 - 该笔记包含了学习git时的大部分指令，及部分概念和自己的一些感悟
-
+- [前端早读课：Git项目管理](https://mp.weixin.qq.com/s/V9oV1AmOv83iBt-6x865kA)
 
 ![image](https://upload-images.jianshu.io/upload_images/3985563-6b745d5fac15906c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/508)
 
