@@ -76,6 +76,8 @@ git log 查看当前分支提交记录
 git log --graph --pretty=oneline --abbrev-commit 查看分支合并情况
 
 git log --pretty=oneline --abbrev-commit 查找历史提交的commit_id
+
+git log master..env/dev 查看单个分支的提交记录 查看env/dev分支的提交记录（env/dev 是在master上拉出来的）
 ```
 
 
