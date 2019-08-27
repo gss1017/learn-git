@@ -208,6 +208,8 @@ git push origin :<branch-name> 推送一个空的分支到远程，相当与删�
 
 git push origin --delete <branch-name> 删除指定的远程
 
+git push --set-upstream origin <branch-name> 将本地分支push到远程并与之关联
+
 ```
 
 #### 工作区缓存指令
