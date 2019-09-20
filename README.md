@@ -3,7 +3,7 @@
 - 该笔记包含了学习git时的大部分指令，及部分概念和自己的一些感悟
 - [前端早读课：Git项目管理](https://mp.weixin.qq.com/s/V9oV1AmOv83iBt-6x865kA)
 - [15分钟成为 GIT 专家](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651229405&idx=1&sn=5fc3fdcdd56d835018513efff8e3c4f1&chksm=bd4955598a3edc4fa138ef0c8cdc069ac0a76ab57c61b7f870d1ca62884e0873ee5fe1242758&scene=21#wechat_redirect)
-- [Git的使用--如何将本地项目上传到Github](https://blog.csdn.net/u014135752/article/details/79951802)
+- [Git的使用--如何将本地项目上传到Github](https://blog.csdn.net/Lucky_LXG/article/details/77849212)
 
 ![image](https://upload-images.jianshu.io/upload_images/3985563-6b745d5fac15906c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/508)
 
