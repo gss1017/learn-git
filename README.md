@@ -38,6 +38,8 @@ git config --global color.ui true 让git显示颜色，命令输入更醒目
 git add -f APP.class 强制添加忽略文件
 
 git check-igonre -v <忽略文件> 检测.ignore 那个规则写错
+
+git rm --cache . 清空工作区所有缓存
 ```
 
 ## git常用指令
