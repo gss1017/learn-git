@@ -115,6 +115,12 @@ git reset HEAD <file> 撤销缓存区更改到工作区
 git rm <file> 删除工作区文件，并将删除动作提交到缓存区
 ```
 
+```
+git restore --staged 将文件从暂存区撤出，但不会撤销文件更改
+
+git restore 将不再暂存区的文件撤销更改
+```
+
 #### 远程仓库的部分指令
 ```
 git remote add origin git@github.com:gss1017/example.git 添加一个远程的仓库
