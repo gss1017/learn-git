@@ -63,6 +63,9 @@ git add <file-name> 给缓存区添加一个文件
 git add  . 上传工作区所有文件到缓存区
 
 git commit -m 'description' 提交文件到本地仓库
+
+# --no-edit: 是跳过进入编辑器，直接提交
+git commit --amend --no-edit 新修改的内容，添加到上次提交中，减少提交的日志
 ```
 
 #### 查看状态与差异、提交记录
