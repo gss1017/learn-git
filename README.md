@@ -109,6 +109,8 @@ git checkout HEAD^ -- <file> 将上一个版本库的指定文件检出到当前
 git checkout (本质就用版本库里的版本替换工作区的版本)
 
 git checkout - 切换上一个分支
+
+git checkout --track origin/dev 基于远程分支创建本地分支，并跟踪对应来自 ‘origin’ 的远程分支
 ```
 ```
 git reset HEAD <file> 撤销缓存区更改到工作区
