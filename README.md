@@ -107,6 +107,8 @@ git checkout -- <file> 撤销工作区更改
 git checkout HEAD^ -- <file> 将上一个版本库的指定文件检出到当前工作区(还原当前版本库删除的文件)
 
 git checkout (本质就用版本库里的版本替换工作区的版本)
+
+git checkout - 切换上一个分支
 ```
 ```
 git reset HEAD <file> 撤销缓存区更改到工作区
