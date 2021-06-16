@@ -208,6 +208,10 @@ git branch -m old_branch new_branch 将本地分支进行改名
 
 git checkout <branch-name> 切换到指定分支
 
+git checkout commit-id 切换到指定的commit
+
+git branch -f <branch-name> commit-id 将指定分支指向指定的commit
+
 git checkout -b <branch-name> 新建一个分支，并切换到该分支
 
 git branch -D <branch-name> 删除分支
