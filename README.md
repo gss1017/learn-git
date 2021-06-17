@@ -311,4 +311,19 @@ git cherry-pick <commit-id>... 将一些指定提交复制到当前所在的位�
 
 git rebase [主分支] [特性分支] 命令会先取出特性分支 ，然后在主分支上重演 
 git rebase [主分支] 当前所在分支即为特性分支
+git rebase -i  [startcommit-id]  [endcommit-id] -i的意思是--interactive，即弹出交互式的界面让用户编辑完成合并操作，[startcommit-id] [endcommit-id]则指定了一个编辑区间，如果不指定[endcommit-id]，则该区间的终点默认是当前分支HEAD所指向的commit(注：该区间指定的是一个前开后闭的区间);
+内部参数：
+pick：保留该commit（缩写:p）
+
+reword：保留该commit，但我需要修改该commit的注释（缩写:r）
+
+edit：保留该commit, 但我要停下来修改该提交(不仅仅修改注释)（缩写:e）
+
+squash：将该commit和前一个commit合并（缩写:s）
+
+fixup：将该commit和前一个commit合并，但我不要保留该提交的注释信息（缩写:f）
+
+exec：执行shell命令（缩写:x）
+
+drop：我要丢弃该commit（缩写:d）
 ```
