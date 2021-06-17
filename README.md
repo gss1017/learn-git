@@ -307,4 +307,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 ```
 git cherry-pick <commit-id>... 将一些指定提交复制到当前所在的位置（HEAD）下面
+
+git rebase [主分支] [特性分支] 命令会先取出特性分支 ，然后在主分支上重演 
+git rebase [主分支] 当前所在分支即为特性分支
 ```
