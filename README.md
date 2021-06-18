@@ -226,6 +226,8 @@ git merge --no-ff -m '提交信息'
 
 git checkout -b <branch-name> origin/<branch-name> 在本地创建与远程对应的分支
 
+git branch -u origin/<branch-name> <branch-name> 指定本地分支追踪指定的远程分支
+
 git branch --set-upstream <branch-name> origin/<branch-name> 建立本地分支与远程分支的关联
 
 git push origin <branch-name>:<branch-name> 把新建的本地分支push到远程服务器，远程分支与本地分支同名（当然可以随意起名）
