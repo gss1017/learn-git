@@ -6,6 +6,7 @@
 - [Git的使用--如何将本地项目上传到Github](https://blog.csdn.net/Lucky_LXG/article/details/77849212)
 - [git Merge 原理](https://blog.csdn.net/u012937029/article/details/77161584)
 - [git rebase 分支的管理](https://gitee.com/progit/3-Git-%E5%88%86%E6%94%AF.html#3.3-%E5%88%86%E6%94%AF%E7%9A%84%E7%AE%A1%E7%90%86)
+- [git 合并多个commit](https://www.jianshu.com/p/964de879904a)
 
 ![image](https://upload-images.jianshu.io/upload_images/3985563-6b745d5fac15906c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/508)
 
