@@ -312,7 +312,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ```
 git cherry-pick <commit-id>... 将一些指定提交复制到当前所在的位置（HEAD）下面
 
-git rebase [主分支] [特性分支] 命令会先取出特性分支 ，然后在主分支上重演 
+git rebase [主分支（目标分支、基分支）] [特性分支（当前分支、待变基分支）] 命令会先取出特性分支 ，然后在主分支上重演 
 git rebase [主分支] 当前所在分支即为特性分支
 git rebase -i  [startcommit-id]  [endcommit-id] -i的意思是--interactive，即弹出交互式的界面让用户编辑完成合并操作，[startcommit-id] [endcommit-id]则指定了一个编辑区间，如果不指定[endcommit-id]，则该区间的终点默认是当前分支HEAD所指向的commit(注：该区间指定的是一个前开后闭的区间);
 内部参数：
